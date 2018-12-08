@@ -1,0 +1,132 @@
+﻿
+
+header {
+    width: 1350px;
+    background-color: red;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+div#logo {
+    float: left;
+    color: white;
+    font-size: 60px;
+    vertical-align: top;
+    font-weight: 900;
+    border-top-right-radius: 500px;
+    border-right: 50px solid orange;
+    background-color:darkred;
+}
+
+div#dn {
+    float: right;
+    color: #3A3A44;
+    border-left: 50px solid white;
+    border-bottom: 10px solid white;
+    border-bottom-left-radius: 100px;
+    background-color: #3A3A44;
+    padding-right:100px;
+    padding-left:50px;
+    height:100px;
+}
+div.login {
+    float: left;
+}
+div.joinin {
+    float: left;
+}
+div.logout {
+    float: left;
+}
+div.buy {
+    float: left;
+}
+div.login:hover {
+    color: white;
+}
+div.joinin:hover {
+    color: white;
+}
+div.logout:hover {
+    color: white;
+}
+div.namelogin{
+    padding-top:20px;
+    float:left;
+    padding-right:20px;
+}
+div.buy:hover{
+    color:white;
+}
+nav {
+    clear: both;
+    background-color: black;
+    height: 45px;
+}
+
+    nav div#subnav {
+        width: 1200px;
+        margin: 0px auto;
+    }
+
+    nav ul {
+        list-style: none;
+        margin-left: 50px;
+    }
+
+        nav ul li {
+            float: left;
+            padding-left:15px;
+        }
+
+            nav ul li a {
+                color: white;
+                font-size: 16px;
+                font-family: Arial;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+
+div#search {
+    float: right;
+    background-color: white;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 34px;
+    width: 380px;
+    border-radius: 5px;
+    border: 0.5px solid #CED2DD;
+}
+
+    div#search input[type=text] {
+        float: left;
+        height: 29px;
+        width: 250px;
+        font-size: 14px;
+        border: none;
+    }
+
+    div#search input[type=submit] {
+        float: right;
+        height: 100%;
+        width: 80px;
+        background: #F7F2E7;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-left: 0.5px solid #CED2DD;
+        font-size: 14px;
+    }
+
+        div#search input[type=submit]:hover {
+            cursor: pointer;
+        }
+div.itemmenu
+{
+    height:30px;
+    padding-top:10px;
+}
+    div.itemmenu:hover {
+        background-color: orange;
+        border-radius: 5px;
+    }

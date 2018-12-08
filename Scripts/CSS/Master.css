@@ -1,0 +1,33 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+}
+body
+{
+    text-align:left;
+    font:Arial,Helvetical,sans-serif;
+    font-size:13px;
+    color:#061C37;
+}
+div#body
+{
+    width:1200px;
+    margin:0px auto;
+    background-color:#edeaea;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+article
+{
+    display:table-row;
+}
+aside#left,aside#right,section
+{
+    display:table-cell;
+}
+section
+{
+    width:750px;
+    vertical-align:top;
+    padding:0px 8px;
+}
+

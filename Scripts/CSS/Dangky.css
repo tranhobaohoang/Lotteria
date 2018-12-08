@@ -1,0 +1,118 @@
+﻿div.dangky {
+    margin-top: 50px;
+    background-color: #3A3A44;
+    border: 5px solid white;
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    border-left: 50px solid white;
+    border-right: 50px solid white;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 800px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+}
+div.dktitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: 50px;
+    float: right;
+    margin-right: 160px;
+    color: #999;
+}
+div.dkttcn {
+    font-weight: 900;
+    font-size: 30px;
+    float: left;
+    margin-left: 90px;
+    color: #999;
+    width: 100%;
+    margin-bottom: 10px;
+}
+div.dkhovaten {
+    font-weight: 900;
+    font-size: 20px;
+    float: right;
+    margin-right: 135px;
+    margin-bottom: 10px;
+}
+div.dkgt {
+    font-weight: 900;
+    font-size: 20px;
+    float: right;
+    margin-right: 135px;
+    margin-bottom: 34px;
+    width: 430px;
+}
+div.dkgtcheck {
+    font-weight: 900;
+    font-size: 20px;
+    float: right;
+}
+div.dkdiachi {
+    font-weight: 900;
+    font-size: 20px;
+    float: right;
+    margin-right: 135px;
+    margin-bottom: 34px;
+}
+div.dkdienthoai {
+    font-weight: 900;
+    font-size: 20px;
+    float: right;
+    margin-right: 135px;
+    margin-bottom: 34px;
+}
+div.dkemail {
+    font-weight: 900;
+    font-size: 20px;
+    float: right;
+    margin-right: 135px;
+    margin-bottom: 10px;
+}
+div.dkngaysinh {
+    font-weight: 900;
+    font-size: 20px;
+    float: right;
+    margin-right: 120px;
+    margin-bottom: 10px;
+}
+div.dkttdn {
+    font-weight: 900;
+    font-size: 30px;
+    float: left;
+    margin-left: 70px;
+    color: #999;
+    width: 100%;
+    margin-bottom:10px;
+}
+div.dkname {
+    font-weight: 900;
+    font-size: 20px;
+    float: right;
+    margin-right: 75px;
+    margin-bottom: 10px;
+    width: 500px;
+}
+div.dkpass {
+    font-weight: 900;
+    font-size: 20px;
+    float: right;
+    margin-right: 135px;
+    margin-bottom: 10px;
+}
+div.dknhaplaimatkhau {
+    font-weight: 900;
+    font-size: 20px;
+    float: right;
+    margin-right: 135px;
+    margin-bottom: 10px;
+}
+div.dkbutton {
+    float: right;
+    margin-right: 360px;
+}

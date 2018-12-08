@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register src="UC/ucHeader.ascx" tagname="ucHeader" tagprefix="uc1" %>
+<%@ Register src="UC/ucLeft.ascx" tagname="ucLeft" tagprefix="uc2" %>
+<%@ Register src="UC/ucRight.ascx" tagname="ucRight" tagprefix="uc3" %>
+<%@ Register src="UC/ucFooter.ascx" tagname="ucFooter" tagprefix="uc4" %>
+<%@ Register src="UC/ucMid.ascx" tagname="ucMid" tagprefix="uc6" %>
+<link href="../Scripts/CSS/Master.css" type="text/css" rel="stylesheet" />
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color:#999999">
+    
+    <form id="form1" runat="server">
+
+    <div style="background-color:#c90a0a;">
+        <uc1:ucHeader ID="ucHeader1" runat="server" />
+    </div>
+    <table style="width:100%;">
+        <tr>
+            <td colspan="3">
+                <div id="body">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                        
+        
+                    </asp:ContentPlaceHolder>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <article>
+                <td>
+                    <uc2:ucLeft ID="ucLeft1" runat="server" />
+                </td>
+                    <td style="vertical-align:top">
+                        <section>
+                        
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                            
+                                </asp:ContentPlaceHolder>
+
+                        </section>
+
+
+                            
+                    </td>
+                <td style="vertical-align:top;">
+                    <uc3:ucRight ID="ucRight1" runat="server" />
+                </td>
+            </article>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <uc4:ucFooter ID="ucFooter1" runat="server" />
+            </td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>

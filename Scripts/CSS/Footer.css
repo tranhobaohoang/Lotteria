@@ -1,0 +1,18 @@
+﻿footer {
+    background-color: black;
+    height: 100px;
+    vertical-align: middle;
+    padding-top: 10px;
+    margin-top: 50px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-top: 5px solid red;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+    footer p {
+        text-align: center;
+        font-size: 17px;
+        margin-top: 5px;
+        color:white;
+    }

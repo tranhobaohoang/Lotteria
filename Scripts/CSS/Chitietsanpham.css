@@ -1,0 +1,47 @@
+﻿
+
+
+div.ctdongia {
+    margin-top: 10px;
+    font-size: 30px;
+    background-color: darkred;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+    width: 60%;
+    padding-top: 10px;
+}
+    div.ctdongia:hover {
+        background-color: red;
+    }
+    div.ctdongia a {
+        text-decoration: none;
+        color: white;
+    }
+
+div.ctmid {
+    margin-top: 50px;
+    background-color: orange;
+    border-radius: 100px;
+    border: 5px solid darkred;
+    border-top: 25px solid darkred;
+    border-bottom: 25px solid darkred;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    width:840px;
+    color:white;
+    font-size:15px;
+}
+
+div.ctleft {
+    float: left;
+}
+div.ctright {
+    margin-top:20px;
+    float: right;
+    width:300px;
+    color:white;
+    text-align:center;
+
+}

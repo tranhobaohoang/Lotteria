@@ -1,0 +1,21 @@
+﻿
+aside#right {
+    padding-top: 60px;
+    width: 200px;
+    vertical-align: top;
+    color: white;
+    height: 200px;
+    border-radius: 100px;
+    background-color: purple;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+div.rightlogin {
+    color: #999999;
+    text-align:center;
+}
+    div.rightlogin:hover {
+        color: white;
+    }
